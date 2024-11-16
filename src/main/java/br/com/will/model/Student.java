@@ -1,17 +1,29 @@
 package br.com.will.model;
 
 public class Student {
-    private String name;
+    private String name, formacao;
+    private int commit, quantidadeDeLinguagens;
 
-
-    public Student (String name){
+    public Student(String name, int commitsrealizados, String formacao, int linguagensDeProgramacao) {
         this.name = name;
-    }
-    public void setName(String name) {
-        this.name = name;
+        this.commit = commitsrealizados;
+        this.formacao = formacao;
+        this.quantidadeDeLinguagens = linguagensDeProgramacao;
     }
 
     public String getName() {
         return name;
+    }
+
+    public int getCommit() {
+        return commit;
+    }
+
+    public String getFormacao() {
+        return formacao;
+    }
+
+    public int getQtdLinguagem() {
+        return quantidadeDeLinguagens;
     }
 }
