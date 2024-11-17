@@ -10,9 +10,9 @@ import java.util.List;
 import static java.util.Arrays.asList;
 
 @RestController // Retorna o dado com JSON - Indica que a classe ela é controladora
-@RequestMapping("student") // Utilizadad para mapear as requisições HTTP
+//@RequestMapping("student") // Utilizadad para mapear as requisições HTTP
 public class StudentEndPoint {
-    @RequestMapping(method = RequestMethod.GET,path = "/list") // Utilizadado para mapear as requisições HTTP localhost:8080/student/list
+    @RequestMapping(method = RequestMethod.GET,path = "/student") // Utilizadado para mapear as requisições HTTP localhost:8080/student/list
     public List<Student> students(){
         return  asList(new Student("Will",100,"Ads",2),
                 new Student(" Coda Fofo",5,"Ads",2),
