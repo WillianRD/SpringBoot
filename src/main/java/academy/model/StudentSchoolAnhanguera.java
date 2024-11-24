@@ -2,12 +2,10 @@ package academy.model;
 
 import lombok.Getter;
 
+@Getter
 public class StudentSchoolAnhanguera {
-    @Getter
     private String nome, formacao;
-    @Getter
     private int idade, quantidadeDeLinguagens;
-    @Getter
     private byte semestreAtual;
 
     public StudentSchoolAnhanguera(String nome, int idade, String formacao, byte semestreAtual, int quantidadeDeLiguagens) {

@@ -10,7 +10,6 @@ import java.util.List;
 import static java.util.Arrays.asList;
 
 @RestController // Classe Controladora
-//@RequestMapping("teacher") // Mapear a requisição teacher
 public class TeacherEndPoint {
     @RequestMapping(method = RequestMethod.GET,path = "/teacher")
     public List<Teacher> teachers (){
