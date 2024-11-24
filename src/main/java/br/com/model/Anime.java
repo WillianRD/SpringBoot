@@ -1,4 +1,4 @@
-package br.com.will.model;
+package br.com.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

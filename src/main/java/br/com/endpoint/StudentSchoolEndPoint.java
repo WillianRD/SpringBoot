@@ -1,6 +1,6 @@
-package br.com.will.endpoint;
+package br.com.endpoint;
 
-import br.com.will.model.StudentSchoolAnhanguera;
+import br.com.model.StudentSchoolAnhanguera;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

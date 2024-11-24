@@ -1,4 +1,4 @@
-package br.com.will.util;
+package br.com.util;
 
 import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;

@@ -1,18 +1,14 @@
-package br.com.will.endpoint;
+package br.com.endpoint;
 
-import br.com.will.model.Anime;
-import br.com.will.services.AnimeServices;
-import br.com.will.util.DateUtil;
+import br.com.model.Anime;
+import br.com.services.AnimeServices;
 
-import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import static java.util.Arrays.asList;

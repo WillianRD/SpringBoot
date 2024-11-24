@@ -1,4 +1,4 @@
-package br.com.will.started;
+package br.com.started;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

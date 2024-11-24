@@ -1,4 +1,4 @@
-package br.com.will.model;
+package br.com.model;
 
 public class School {
     private long id;
