@@ -1,7 +1,7 @@
-package br.com.endpoint;
+package academy.endpoint;
 
-import br.com.model.Anime;
-import br.com.services.AnimeServices;
+import academy.model.Anime;
+import academy.services.AnimeServices;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;

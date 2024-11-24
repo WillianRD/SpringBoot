@@ -1,6 +1,6 @@
-package br.com.services;
+package academy.services;
 
-import br.com.model.Anime;
+import academy.model.Anime;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

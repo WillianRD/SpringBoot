@@ -1,6 +1,6 @@
-package br.com.endpoint;
+package academy.endpoint;
 
-import br.com.model.Teacher;
+import academy.model.Teacher;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

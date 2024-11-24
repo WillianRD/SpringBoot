@@ -1,6 +1,6 @@
-package br.com.repository;
+package academy.repository;
 
-import br.com.model.Anime;
+import academy.model.Anime;
 import java.util.List;
 
 public interface AnimeRepository {

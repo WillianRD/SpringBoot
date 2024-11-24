@@ -1,4 +1,4 @@
-package br.com.started;
+package academy.started;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

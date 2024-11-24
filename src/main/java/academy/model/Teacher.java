@@ -1,4 +1,4 @@
-package br.com.model;
+package academy.model;
 
 public class Teacher  {
 

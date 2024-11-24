@@ -1,4 +1,4 @@
-package br.com.util;
+package academy.util;
 
 import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;

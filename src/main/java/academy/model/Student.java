@@ -1,4 +1,4 @@
-package br.com.model;
+package academy.model;
 
 public class Student {
     private String name, formacao;
